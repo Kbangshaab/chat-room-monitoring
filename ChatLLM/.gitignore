@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files / checkpoints (large binaries — don't commit these)
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+models/
+checkpoints/
+
+# Ollama doesn't store models in your repo, but just in case
+.ollama/
+
+# Environment / secrets
+.env
+*.env
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Large generated datasets (uncomment if your dataset gets big — otherwise fine to commit)
+# data/raw/*.json
